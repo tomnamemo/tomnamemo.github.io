@@ -1,22 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <link rel="apple-touch-icon" href="/logo192.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <title>React Blog</title>
-    <script defer="defer" src="/static/js/main.f8c03393.js"></script>
-    <link href="/static/css/main.cee6f6d0.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/images/favicon.ico" />
+    <title>비버랜드</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app. </noscript>
-    <div id="root"></div>
+    <!-- header start -->
+    <header class="header">
+      <nav class="header__nav">
+        <h1 class="header__logo"><a href="#">Beaverland</a></h1>
+        <ul class="header__list">
+          <!-- 인트로, 이력, 교육, 스킬, 자격증, 스터디 연락처 -->
+          <li class="header__item"><a href="#works">works</a></li>
+          <li class="header__item"><a href="#education">education</a></li>
+          <!-- <li class="header__item"><a href="#skills">skills</a></li> -->
+          <!-- <li class="header__item"><a href="#licensce">licensce</a></li> -->
+          <!-- <li class="header__item"><a href="#sideproject">side project</a></li> -->
+          <li class="header__item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="main">
+      <!-- section intro -->
+      <section class="main__section intro">
+        <div class="intro__content group01">
+          <p class="intro__title a">BeaverLand!</p>
+          <div class="intro__imgbox">aa</div>
+          <p class="intro__title b">web-publisher</p>
+        </div>
+        <div class="intro__content group02">
+          <p class="intro__subtitle a">가가가가가가가가가가가가가가가</p>
+          <!-- I'M A CREATIVE WEB PUBLISHER WHO/  HAS A PASSION AND SNICAL KINDNESS.-->
+          <p class="intro__subtitle b">가가가가가가가가가가가가가가가</p>
+        </div>
+      </section>
+
+      <!-- section 01 works-->
+      <section class="main__section works" id="works">
+        <p class="section__title">Latest works <sup>(4)</sup></p>
+        <ul class="works__list">
+          <li class="works__item">
+            <div class="works__info">
+              <p class="works__title">
+                해외온렌딩 사이트 구축 / 한국수출입은행
+              </p>
+              <p class="works__keywords">
+                <span class="works__kinds">Javascript</span>
+                <span class="works__kinds">Xml</span>
+                <span class="works__kinds">CSS3</span>
+                <span class="works__kinds">Adobe XD</span>
+                <span class="works__kinds">SVN</span>
+                <span class="works__kinds">단위테스트 기간부터 투입</span>
+              </p>
+            </div>
+            <div class="works__year">
+              <p class="works__period">2021.09 - 2021.12</p>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="works__info">
+              <p class="works__title">新 디지털플랫폼 구축 / 신한저축은행</p>
+              <p class="works__keywords">
+                <span class="works__kinds">React.js</span>
+                <span class="works__kinds">Javascript</span>
+                <span class="works__kinds">SCSS</span>
+                <span class="works__kinds">Adobe XD</span>
+                <span class="works__kinds">Git</span>
+                <span class="works__kinds">참여 100%</span>
+              </p>
+            </div>
+            <div class="works__year">
+              <p class="works__period">2022.03 - 2022.10</p>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="works__info">
+              <p class="works__title">50주년 e역사관 개발 / 저축은행중앙회</p>
+              <p class="works__keywords">
+                <span class="works__kinds">Javascript</span>
+                <span class="works__kinds">HTML5</span>
+                <span class="works__kinds">CSS3</span>
+                <span class="works__kinds">Figma</span>
+                <span class="works__kinds">Git</span>
+                <span class="works__kinds">참여 100%</span>
+              </p>
+            </div>
+            <div class="works__year">
+              <p class="works__period">2022.11 - 2023.01</p>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="works__info">
+              <p class="works__title">
+                홈페이지 리뉴얼 & 운영 / (주)피노유엑스디
+              </p>
+              <p class="works__keywords">
+                <span class="works__kinds">Javascript</span>
+                <span class="works__kinds">HTML5</span>
+                <span class="works__kinds">CSS3</span>
+                <span class="works__kinds">Figma</span>
+                <span class="works__kinds">Git</span>
+                <span class="works__kinds">참여 100%</span>
+              </p>
+            </div>
+            <div class="works__year">
+              <p class="works__period">2023.03 ~</p>
+            </div>
+          </li>
+        </ul>
+        <!-- 2021.09~2021.12 해외온렌딩 사이트 구축 / 한국수출입은행 / html, javascript /adobeXD / svn 
+		2022.03~2022.10 신한저축은행 新 디지털플랫폼 구축 / 신한저축은행 / React, scss /adobeXD / git 
+		2022.11~2023.01 저축은행중앙회 50주년 e역사관 개발 / 저축은행중앙회 / html, javascript / Figma / git 
+		2023.03~ 피노유엑스디 자사 홈페이지 리뉴얼 및 운영/ 본사 / html,javascript / Figma / git
+        그 외 신규사업 제안 퍼블리싱 작업 & 개인역량 강화 스터디 -->
+      </section>
+
+      <!-- section 02 education-->
+      <section class="main__section education" id="education">
+        <!-- <p class="section__title">Education</p> -->
+        <!-- 2022. 03 ~ 2024. 02 재학중 한국방송통신대학교 컴퓨터과학과
+		 2009. 03 ~2011. 02 졸업 서울모드패션디자인전문학교 패션디자인  
+		 2021. 01 ~ 2021. 07 이젠컴퓨터아트학원
+		 2010.10 - 2020.12 웹디자이너-->
+
+        <div class="edu__info">
+          <p class="edu__title">My way of getting things done</p>
+          <p class="edu__desc">끊임없이 공부하기!</p>
+          <p class="edu__desc">2023 올해 도전 목표는</p>
+          <p class="edu__desc">정보처리기사 취득!!</p>
+        </div>
+        <div class="edu__list__wrap">
+          <ul class="edu__list">
+            <li class="edu__item">
+              <p class="edu__period">2022. 03 -</p>
+              <p class="edu__name">한국방송통신대학교 컴퓨터과학과</p>
+            </li>
+            <li class="edu__item">
+              <p class="edu__period">2021. 01 - 2021. 07</p>
+              <p class="edu__name">UI/UX 디자인 & 퍼블리싱 교육 이수</p>
+            </li>
+            <li class="edu__item">
+              <p class="edu__period">2009. 03 - 2011. 02</p>
+              <p class="edu__name">서울모드패션디자인전문학교 패션디자인과</p>
+            </li>
+          </ul>
+          <ul class="edu__list">
+            <li class="edu__item">
+              <p class="edu__period">2021. 07</p>
+              <p class="edu__name">웹디자인기능사</p>
+            </li>
+            <li class="edu__item">
+              <p class="edu__period">2021. 07</p>
+              <p class="edu__name">컴퓨터그래픽스운용기능사</p>
+            </li>
+            <li class="edu__item">
+              <p class="edu__period">2021. 06</p>
+              <p class="edu__name">GTQ 1급</p>
+            </li>
+            <li class="edu__item">
+              <p class="edu__period">2021. 05</p>
+              <p class="edu__name">GTQ 일러스트 1급</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- section skills-->
+      <section class="main__section skills" id="skills">
+        <!-- <p class="section__title">Skills</p> -->
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_01.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_02.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_03.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_04.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_05.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_06.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_07.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_08.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_09.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              src="../images/skills/skill_icon_10.png"
+              alt=""
+              class="skills__img"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__section contact" id="contact">
+        <!-- <p class="section__title">
+          Let’s talk about a project, collaboration or an idea you may have
+        </p> -->
+        <p class="contact__title">
+          Let’s talk about a project, collaboration or an idea you may have
+        </p>
+        <a href="mailto:beaverland@naver.com">beaverland@naver.com</a>
+      </section>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <section>All rights reserved by beaverland. 2023</section>
+    </footer>
+    <!-- footer end -->
+
+    <!-- section licensce-->
+    <!-- <section class="main__section licensce" id="licensce">
+        <p class="section__title">Licensce</p>
+        2021. 07 웹디자인기능사 한국산업인력공단 2021. 07
+        컴퓨터그래픽스운용기능사 한국산업인력공단 2021. 06 GTQ 1급
+        한국생산성본부 2021. 05 GTQ 일러스트 1급 한국생산성본부 2014. 01
+        자동차운전면허 경기지방경찰청장 2008. 09 미용기능사 한국산업인력공단
+        <p>라이센스 나열</p>
+      </section> -->
+
+    <!-- section  sideproject-->
+    <!-- <section class="main__section sideproject" id="sideproject">
+        <p class="section__title">sideproject</p>
+        <p>사이드프로젝트</p>
+      </section> -->
   </body>
+
+  <script>
+    // 변수를 설정하여 DOM 요소를 선택
+    const header = document.querySelector("header");
+    // 현재 스크롤 위치를 저장할 변수 초기화
+    let lastScrollPosition = 0;
+    // 스크롤 이벤트 리스너 추가
+    window.addEventListener("scroll", () => {
+      // 현재 스크롤 위치를 확인
+      const currentScrollPosition = window.scrollY;
+      // 스크롤 업
+      if (lastScrollPosition > currentScrollPosition) {
+        header.classList.remove("hide");
+      }
+      // 스크롤 다운
+      else {
+        header.classList.add("hide");
+      }
+      // 현재 스크롤 위치 업데이트
+      lastScrollPosition = currentScrollPosition;
+    });
+  </script>
 </html>
